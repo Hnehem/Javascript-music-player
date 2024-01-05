@@ -4,14 +4,14 @@ export let list = [
   {
     title: "Lost in the City Lights",
     author: "Cosmo Sheldrake",
-    cover: "/images/songs-cover/cover-1.png",
-    audio: "/audio/lost-in-city-lights-145038.mp3",
+    cover: "images/songs-cover/cover-1.png",
+    audio: "audio/lost-in-city-lights-145038.mp3",
   },
   {
     title: "Forest Lullaby",
     author: "Lesfm",
-    cover: "/images/songs-cover/cover-2.png",
-    audio: "/audio/forest-lullaby-110624.mp3",
+    cover: "images/songs-cover/cover-2.png",
+    audio: "audio/forest-lullaby-110624.mp3",
   },
 ];
 
