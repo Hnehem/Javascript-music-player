@@ -75,13 +75,13 @@ img {
   cursor: pointer;
 }
 .bar-fill {
-  width: 80%;
+  width: 0;
   height: 100%;
   background-color: #c93b76;
   box-shadow: 0 0 15px #c93b76;
   border-radius: 0.2rem;
 }
-.controlls {
+.controls {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -95,12 +95,12 @@ img {
 }
 
 .icon:hover {
-    transform: scale(1.05);
-    stroke: #e5e7eb;
+  transform: scale(1.05);
+  stroke: #e5e7eb;
 }
 .icon:active {
-    stroke: #e5e7eb;
-    transform: scale(0.95);
+  stroke: #e5e7eb;
+  transform: scale(0.95);
 }
 
 .central-icon {
@@ -115,19 +115,23 @@ img {
 }
 
 .central-icon:hover {
-    box-shadow: 0 0 20px #122;
+  box-shadow: 0 0 20px #122;
 }
 .central-icon:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .play {
-  display: none;
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
+  padding: .5rem;
 }
 .pause {
-  /* display: none; */
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
+  padding: .9rem;
+}
+
+.hide {
+  display: none;
 }
