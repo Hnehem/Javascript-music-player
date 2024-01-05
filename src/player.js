@@ -104,4 +104,4 @@ function prevSong() {
 }
 
 
-export { container, bar, progressBar, currentSong, player, toggleHide, nextSong };
+export { container, bar, progressBar, currentSong, index, player, toggleHide, nextSong };

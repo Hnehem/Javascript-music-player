@@ -1,4 +1,4 @@
-import { player } from "./src/player.js";
+import { player, index } from "./src/player.js";
 
 export let list = [
   {
@@ -15,7 +15,6 @@ export let list = [
   },
 ];
 
-let index = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
   player(list[index], false);
