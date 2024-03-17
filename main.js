@@ -11,7 +11,7 @@ export let list = [
     title: "Forest Lullaby",
     author: "Lesfm",
     cover: "images/songs-cover/cover-2.png",
-    audio: "audio/lost-in-city-lights-145038.mp3",
+    audio: "audio/forest-lullaby-110624.mp3",
   },
 ];
 
